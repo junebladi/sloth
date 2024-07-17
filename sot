@@ -1,0 +1,76 @@
+
+getgenv().Sloth = {
+    ['Settings'] = {
+        FPSUnlocker = true,
+    
+        ['IntroSettings'] = {
+            Intro = true,
+            IntroID = "rbxassetid://18512288865"
+            },
+        },
+    
+        Target = {
+            ["Keybind"] = Enum.KeyCode.C,
+            ["Camlock"] = 0.39, --// camlock prediction
+            ["SilentPred"] = 0.13, --// silent aim prediction
+    
+            ["Enabled"] = true,
+            ["TargetPart"] = "Head",
+    
+            ["ClosetPart"] = false,
+            ["Partz"] = {"Head","HumanoidRootPart"},
+            ["Shake"] = 0,
+    
+            ["Smoothing"] = 0.023949392,
+            ["JumpOffset"] = 1.65,
+    
+        },
+        Checks = {
+            ["DisableOnTargetDeath"] = true,
+            ["DisableOnPlayerDeath"] = true,
+            ["CheckKoStatus"] = true,
+            ["AntiGroundShots"] = true,
+    
+        },
+        AntiLock = {
+            ['Key'] = Enum.KeyCode.C, --// Expample Binds are P,Q,Z,L,Y.
+            ['Enabled'] = true,
+        },
+    
+            Sorting = {
+                ['Enabled'] = true,
+                ['Keybind'] = Enum.KeyCode.L,
+                ['Slot 1'] = "[Chicken]", --// Name each gun/item in each slot how youd like
+                ['Slot 2'] = "[Cranberry]",
+                ['Slot 3'] = "[Pizza]",
+                ['Slot 4'] = "[]",
+                ['Slot 5'] = "[]",
+                ['Slot 6'] = "[]",
+                ['Slot 7'] = "[]",
+                ['Slot 8'] = "[]",
+                ['Slot 9'] = "[]",
+                ['Slot 0'] = "[]",
+            
+        
+      
+            },
+    
+        Spin = {
+            ["Enabled"] = true,
+            ["SpinSpeed"] = 4900, --// Spin Speed For 360
+            ["Degrees"] = 360, --// Leave At 360 To Do a 360..
+            ["Keybind"] = Enum.KeyCode.V, --// Keybind to Do 360
+    
+        },
+        Visuals = {
+            ['DistanceESP'] = false,
+            ['WeaponESP'] = false,
+            ['HealthBar'] = false,
+            ['NameESP'] = false,
+    
+    
+        },
+    }
+
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/464a80f71d8fb351350d7b763601fa7f.lua"))()
