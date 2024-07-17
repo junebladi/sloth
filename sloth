@@ -1,11 +1,11 @@
-script_key="oLQOdMzNZcJECBfXfBHjMpLNvEURsTot";
+script_key="keyhere"; --// put your key there
 getgenv().Sloth = {
     ['Settings'] = {
         FPSUnlocker = true,
     
         ['IntroSettings'] = {
             Intro = true,
-            IntroID = "rbxassetid://18512288865"
+            IntroID = "rbxassetid://18512288865" --// do not touch fatass
             },
         },
     
